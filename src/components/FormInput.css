@@ -1,0 +1,17 @@
+
+.form-input-ok{
+    border-bottom: 2px solid rgb(29, 195, 51);
+}
+
+.form-input-err{
+    border-bottom: 2px solid rgb(204, 33, 33);
+}
+
+.input-err{
+    font-size: 0.8rem;
+    position: absolute;
+    top: 2.5rem;
+    color: red;
+}
+
+

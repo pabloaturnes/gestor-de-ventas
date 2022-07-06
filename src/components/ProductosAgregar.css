@@ -1,0 +1,102 @@
+.productos-agregar{
+    grid-area: main;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.productos-agregar > form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.productos-agregar > form > div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    gap: 0.1rem;
+    position: relative;
+}
+
+.productos-agregar > form > div > input{
+    border: none;
+    border-bottom: 1px solid black;
+    height: 1.5rem;
+    outline: none;
+}
+
+.productos-agregar > form > div > input:focus{
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.productos-agregar > form > div > input[type="submit"]{
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.4s ease all;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.productos-agregar > form > div > input[type="submit"]:hover{
+    background-color: green;
+    transition: 0.4s ease all;
+}
+
+.productos-agregar > form > div > label{
+    font-weight:500;
+}
+
+
+.form-err{
+    color: red;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.form-succ{
+    color: green;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.productos-agregar > form > .text-area{
+    width: 80%;
+
+}
+
+.productos-agregar > form > .text-area > textarea{
+    resize: none;
+    overflow: auto;
+}
+
+.text-area > .input-err{
+    top: 5rem;
+}
+
+.productos-agregar > form > .file-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.productos-agregar > form > .file-input > input{
+    margin-top: 0.5rem;
+    max-width: 15rem;
+    border: none;
+}
+
+
+.productos-agregar > form > .file-input > input:focus{
+    border: none;
+}

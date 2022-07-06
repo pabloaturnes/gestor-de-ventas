@@ -1,0 +1,8 @@
+#root{
+  display: grid;
+  grid-template-areas:  "header header"
+                        "aside  main";
+  grid-template-columns: 15% 1fr;
+  grid-template-rows: 10vh 1fr ;
+  min-height: 100vh;
+}
